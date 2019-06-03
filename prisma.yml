@@ -1,0 +1,5 @@
+endpoint: https://restaurant-app-03378c1706.herokuapp.com/restaurant-app/dev
+datamodel: datamodel.prisma
+generate:
+  - generator: javascript-client
+    output: ./prisma/generated/prisma-client/
